@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+    padding: 20px;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.escala-imc {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Colores personalizados para las clasificaciones de IMC */
+.imc-bajo-peso {
+    color: #0dcaf0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.imc-normal {
+    color: #198754;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.imc-sobrepeso {
+    color: #ffc107;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.imc-obesidad {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 18px;
+}
